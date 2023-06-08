@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Formulario de ejemplo</title>
+  <title>Formulario</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -60,7 +60,7 @@
   </style>
 </head>
 <body>
-  <h1>Formulario de ejemplo</h1>
+  <h1>Formulario</h1>
   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required>
